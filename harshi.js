@@ -1,8 +1,16 @@
+let num=13
 function prime(num){
     let count=0
     for(let i=0;i<=num;i++){
-        if(num%2==0){
+        if(num%i==0){
             count++
         }
-    }if(count==2)
+    }
+    if(count==2) {
+        console.log("yes")
+
+    }
+    else {
+        console.log("No")
+    }
 }
